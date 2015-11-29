@@ -1,7 +1,7 @@
 {
   "name": "secret_santa",
   "version": "1.0.0",
-  "description": "node thing for setting up a secret santa exchange",
+  "description": "a node module for setting up a secret santa exchange",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -24,6 +24,10 @@
       "es2015"
     ]
   },
-  "author": "",
+  "author": {
+    "name": "Bobby Azarbayejani",
+    "email": "bobby.azarbayejani@gmail.com",
+    "url": "http://azarbayejani.com"
+  },
   "license": "MIT"
 }
