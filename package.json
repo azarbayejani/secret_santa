@@ -1,0 +1,29 @@
+{
+  "name": "secret_santa",
+  "version": "1.0.0",
+  "description": "node thing for setting up a secret santa exchange",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -w --compilers js:babel-core/register"
+  },
+  "dependencies": {
+    "underscore": "*",
+    "babel-core": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "mockery": "^1.4.0",
+    "sinon": "^1.17.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "author": "",
+  "license": "MIT"
+}
